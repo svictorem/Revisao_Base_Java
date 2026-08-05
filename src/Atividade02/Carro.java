@@ -5,14 +5,16 @@ public class Carro {
 	String marca;
 	int ano;
 	
-	public Carro() {
-		// TODO Auto-generated constructor stub
+	public Carro(String modelo, String marca, int ano) {
+		this.modelo = modelo;
+		this.marca = marca;
+		this.ano = ano;
 	}
 	
-	public void exibirinformaões() {
-		System.out.println("modelo: " + modelo);
-		System.out.println( "marca: " + marca);
-		System.out.println("ano: " + ano);
+	public void exibirInformacoes() {
+		System.out.println("Modelo: " + modelo);
+		System.out.println("Marca: " + marca);
+		System.out.println("Ano: " + ano);
 	}
 }
   
