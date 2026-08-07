@@ -1,18 +1,19 @@
 package Atividade03;
 
 public class Calculadora {
-
-	public static void main(String[] args) {
-		double somar (double a, double b ) {
+		public int somar (int a, int b ) {
 			return a + b;
 		}
-		double subtrair (double a, double b) {
+		
+		public int subtrair (int a, int b) {
 			return a - b;
 		}
-		double multiplicar (double a, double b) {
+		
+		public int multiplicar (int a, int b) {
 			return a * b;		
 		}
-        double dividir( double a, double b) {
+		
+        public double dividir( double a, double b) {
         	if (b != 0) {
         		return a / b;
         	} else {
@@ -20,6 +21,5 @@ public class Calculadora {
         		return 0;
         	}
         }
-	}
 
 }
